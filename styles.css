@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.top-socials {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 12px;
+  z-index: 1000;
+}
+
+.top-socials a {
+  color: #003366;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.top-socials a:hover {
+  color: #0073e6;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+  background-color: #e6f0ff;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #0059b3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.slideshow-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.slideshow-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: opacity 1s ease-in-out;
+}

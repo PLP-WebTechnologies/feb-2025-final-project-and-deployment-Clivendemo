@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lesson: Introduction to Computers</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .lesson-content {
+      max-width: 900px;
+      margin: 2rem auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+
+    .lesson-content h2 {
+      color: #003366;
+    }
+
+    .objectives, .notes, .activities {
+      margin-top: 2rem;
+    }
+
+    .lesson-content ul {
+      padding-left: 1.5rem;
+    }
+
+    .pdf-download {
+      margin-top: 2rem;
+      display: inline-block;
+      padding: 0.7rem 1rem;
+      background-color: #0059b3;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    .pdf-download:hover {
+      background-color: #004080;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Computer Studies Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="lessons.html" class="active">Lessons</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="lesson-content">
+    <h2>Lesson: Introduction to Computers</h2>
+    <div class="objectives">
+      <h3>Lesson Objectives</h3>
+      <ul>
+        <li>Define what a computer is.</li>
+        <li>Explain basic uses of computers.</li>
+        <li>Identify the main components of a computer system.</li>
+      </ul>
+    </div>
+
+    <div class="notes">
+      <h3>Lesson Notes</h3>
+      <p>
+        A computer is an electronic device that accepts input, processes it, stores it, and gives output.
+        Computers are used in education, health, business, entertainment, and many more areas.
+        The main components include:
+      </p>
+      <ul>
+        <li><strong>Input Devices</strong> – e.g., keyboard, mouse.</li>
+        <li><strong>Processing Unit</strong> – Central Processing Unit (CPU).</li>
+        <li><strong>Storage Devices</strong> – e.g., hard disk, flash drive.</li>
+        <li><strong>Output Devices</strong> – e.g., monitor, printer.</li>
+      </ul>
+    </div>
+
+    <div class="activities">
+      <h3>Class Activities</h3>
+      <ul>
+        <li>Draw and label the basic computer components.</li>
+        <li>Discuss five areas where computers are used in everyday life.</li>
+        <li>Pair activity: Match components to their functions.</li>
+      </ul>
+    </div>
+
+    <div class="pdf-viewer" style="margin-top: 2rem;">
+    <h3>View Full Lesson Notes (PDF)</h3>
+    <embed src="docs/introduction_to_computers.pdf" type="application/pdf" width="100%" height="600px" />
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Computer Studies Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
